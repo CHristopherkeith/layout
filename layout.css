@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*
+	position: relative;*/
+	/*
+	overflow: hidden;*/
+}
+.main{
+	top: 40px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	/*
+	height: 800px;*/
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background: blue;
+}
+.left{
+	width: 350px;
+	height: 100%;
+	background: gray;
+	/*
+	float: left;*/
+	position: absolute;
+}
+.right{
+	height: 100%;
+	margin-left: 350px;
+	margin-right: 0px;
+	/*
+	float: left;*/
+	background: yellow;
+}
+.main>div span{
+	position: absolute;
+	bottom: 0px;
+}
